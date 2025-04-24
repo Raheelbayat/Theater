@@ -1,0 +1,64 @@
+body {background-color: rgb(250, 168, 229);
+background-position: 0cap;
+}
+h1 {color: rgb(168, 23, 168);
+text-align: center;
+text-decoration: underline;
+}
+
+h2 {color: rgb(250, 57, 202); font-size: 80; align-items: center;
+text-align: center;
+}
+p {font-size: large;
+    color: rgb(250, 99, 170);
+text-align: center;
+}
+
+div {/* the color does not look good.*/;
+margin: 0px;
+margin-top: 0px;
+margin-left: 38px;
+margin-right: 0px;
+}
+.video-container {text-align: center;}
+,paragraph {
+    background-color: aliceblue;
+    width: 300;
+    height: 300;
+    border: solid;
+    border-width: 50px;
+    padding-left: 50;
+    margin: 20px;
+    display: inline-block;
+    padding: 20px;
+    border: 10px solid transparent;
+    animation: blinking 1s initial;
+}
+
+  @keyframes blinking {
+    0% { border-color: red; }
+    50% { border-color: yellow; }
+    100% { border-color: green; }
+  }
+  
+.fun {
+    text-decoration: underline;
+}
+section {background-color: rgb(30, 202, 107);
+margin-inline-start: 40px;
+text-align: center;
+margin-top: 10px;
+display: inline-block;}
+
+.buttons {text-align: center;
+display: block;}
+.stars-box {
+    text-align: center;
+    display: inline-block; /* Ensures the stars stay inside the box */
+    padding: 2px; /* Adds space around the stars */
+    background-color: rgb(245, 166, 228); /* Sets a background color for the box */
+    text-align: center; /* Aligns the stars horizontally */
+    font-size: 20px; /* Makes the stars larger */
+    color: gold; /* Colors the stars gold */
+  }
+  
